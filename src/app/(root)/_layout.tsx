@@ -19,6 +19,4 @@ export default function AppLayout(){
         return <Slot />;
     }
 
-    return <Slot />;
-
 }

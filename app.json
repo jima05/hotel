@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jima1.hotel"
     },
     "web": {
       "bundler": "metro",
@@ -34,20 +35,29 @@
         }
       ],
       [
-      "expo-font",{
-        "fonts": [
-          "./assets/fonts/Rubik-Bold.ttf",
-          "./assets/fonts/Rubik-ExtraBold.ttf",
-          "./assets/fonts/Rubik-Light.ttf",
-          "./assets/fonts/Rubik-Medium.ttf",
-          "./assets/fonts/Rubik-Regular.ttf",
-          "./assets/fonts/Rubik-SemiBold.ttf"
-        ]
-       }
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Rubik-Bold.ttf",
+            "./assets/fonts/Rubik-ExtraBold.ttf",
+            "./assets/fonts/Rubik-Light.ttf",
+            "./assets/fonts/Rubik-Medium.ttf",
+            "./assets/fonts/Rubik-Regular.ttf",
+            "./assets/fonts/Rubik-SemiBold.ttf"
+          ]
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a6a9111a-9419-4f47-88f4-c139148ced2b"
+      }
     }
   }
 }
